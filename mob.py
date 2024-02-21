@@ -20,7 +20,7 @@ elem.send_keys('00000000000') #Your CPF goes here
 # Fullfill the PASSWORD imput
 elemPass = navegador.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[2]/form/input[2]')
 elemPass.clear()
-elemPass.send_keys('*******')#Your Password goes here
+elemPass.send_keys('*******') #Your Password goes here
 
 # Click on 'ENTRAR' button, via form submit
 navegador.find_element_by_xpath('/html/body/div[3]/div/div[2]/div/div/div[2]/form').submit()
