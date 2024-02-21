@@ -1,2 +1,2 @@
 # RPA
-A few samples of RPA usage. Bult by Python and selenium
+A few samples of RPA usage. Built using Python and selenium
